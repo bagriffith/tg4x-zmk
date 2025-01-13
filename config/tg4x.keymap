@@ -27,7 +27,7 @@
 &kp TAB   &kp Q    &kp W    &kp E       &kp R &kp T &kp Y &kp U    &kp I     &kp O    &kp P    &kp APOS  &kp BSPC
 &kp LCTRL &kp A    &kp S    &kp D       &kp F &kp G &kp H &kp J    &kp K     &kp L    &kp SEMI           &kp RET
 &kp LSHFT &kp Z    &kp X    &kp C       &kp V &kp B &kp N &kp M    &kp COMMA &kp DOT  &kp SLASH          &kp RSHFT
-&kp LGUI  &kp LALT &mo 2    &lt 2 SPACE                   &kp SPACE &mo 1    &kp RALT &mo 2              &kp RCTRL
+&kp LGUI  &kp LALT &mo 3    &lt 2 SPACE                   &kp SPACE &mo 1    &kp RALT &mo 4              &kp RCTRL
             >;
         };
 
@@ -55,6 +55,15 @@
 &none  &kp C_AL_WWW &kp C_AL_CAL   &kp C_AC_BACK    &kp C_AC_HOME &kp C_AL_CALC  &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &kp INS       &trans
 &trans &trans       &trans         &trans           &trans        &trans         &trans    &trans   &trans   &trans    &trans        &trans
 &trans &trans       &trans         &trans                                                  &trans   &trans   &trans    &trans       &trans
+            >;
+        };
+
+        function_layer {
+            bindings = <
+&trans &kp F11     &kp F12    &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &kp C_BRI_DN &kp C_BRI_UP &kp PSCRN &kp SLCK &kp PAUSE_BREAK &none &trans
+&none  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5       &kp F6       &kp F7       &kp F8    &kp F9   &kp F10               &trans
+&trans &kp KP_NLCK &kp C_PREV &kp C_PP     &kp C_NEXT &kp C_STOP   &none        &none        &none     &none    &none                 &trans
+&trans &trans      &trans     &trans                                            &trans       &trans    &trans   &trans                &trans
             >;
         };
 
