@@ -1,0 +1,27 @@
+{
+  "name": "Brady Layers",
+  "backgroundColor": "#eeeeee",
+  "rules": [
+    {
+      "name": "Default",
+      "colors": {
+        "color": "#F1DEC6",
+        "defaultTextColor": "#000000"
+      }
+    },
+    {
+      "name": "Symbol",
+      "colors": {
+        "color": "#FF8343"
+      },
+      "matchers": "(y > 4 and y <=9 and not ghost) or (label matches \"Symbol\")"
+    },
+    {
+      "name": "Fn",
+      "colors": {
+        "color": "#89A8B2"
+      },
+      "matchers": "(y > 9 and not ghost) or (label matches \"Fn\")"
+    }
+  ]
+}
