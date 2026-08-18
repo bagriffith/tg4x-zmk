@@ -1,5 +1,5 @@
 {
-  "name": "Brady Layers",
+  "name": "Brady's Layered",
   "backgroundColor": "#eeeeee",
   "rules": [
     {
@@ -14,14 +14,22 @@
       "colors": {
         "color": "#FF8343"
       },
-      "matchers": "(y > 4 and y <=9 and not ghost) or (label matches \"Symbol\")"
+      "matchers": "(y > 5 and y < 9 and not ghost) or (label matches \"Symbol\")"
     },
     {
       "name": "Fn",
       "colors": {
         "color": "#89A8B2"
       },
-      "matchers": "(y > 9 and not ghost) or (label matches \"Fn\")"
+      "matchers": "(y > 9 and y < 14 and not ghost) or (label matches \"Fn\")"
+    },
+    {
+      "name": "BT",
+      "colors": {
+        "color": "#4158A6",
+        "defaultTextColor": "#ffffff"
+      },
+      "matchers": "(y > 15 and y < 19 and not ghost) or (label matches \"BT\") and not (label matches \"Layer\")"
     }
   ]
 }
